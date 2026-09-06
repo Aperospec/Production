@@ -2,7 +2,7 @@
 name: production-craft
 description: 制作二维静态视觉素材与页面，完成图像生成或编辑、合成完稿、精确排字、尺寸或语言变体、导出及实际文件检查。用于按明确设计或制作要求实现和修复视觉文件；不涵盖视频后期、软件交付或制造流程。
 metadata:
-  version: 1.2.0-alpha
+  version: 1.2.1-alpha
 ---
 
 # Production Craft

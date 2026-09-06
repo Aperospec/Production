@@ -46,6 +46,10 @@
 
 复杂文字的源文逻辑顺序、画面上的字形顺序与 PDF 提取结果可能不同。发现替代字符、附标错序或双向混排差异时，分别检查源文、成形结果和导出的文字映射；必要时用另一种提取器定位差异，不为让某个比较器通过而倒序源文或改掉正确字形。需要搜索、复制或辅助阅读时，在相应阅读环境实测；嵌入字体不保证文字映射正确，ToUnicode 或 ActualText 的存在也不等于复制结果或无障碍合规已通过。静态栅格交付无需因此强加 PDF 文本层。
 
+具体诊断 PDF 映射时，追踪实际字体资源对象和绘制字符码，分别检查字形选择、ToUnicode 及覆盖该绘制范围的 ActualText。字符码与字形编号角色不同，不能默认数值相同；提取器可能忽略已有的准确替代文字，不能只看低层映射就断言原文丢失。按目标读取环境决定是否需要兼容修复，保留已有正确语义。
+
+修改共享字体映射前，核对受影响码在各页及复用内容中的全部用途，依据准确源文与实际位置确认字符身份。相同字形甚至同一码可能承载不同源字符，不能靠字体反查或全局归一化猜回原文。一个码可映射为有依据的字符序列，但这不负责跨码的逻辑重排；有身份冲突时需保留位置上的区分或回到源端生成，不随意合并。相关机制见 [PDF 规范的文字提取与替代文本章节](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf)（§9.10、§14.9.4）。
+
 字体替换、缺字或语言不适配修正后重新导出并检查新文件。保留实际检查证据到本次项目，不宣称未查看的文件已经无误。
 
 原生 CoreText 排字的具体依据可查 [Apple Core Text 编程指南](https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Overview/Overview.html)；字符串比较的差异见 [Swift 字符串与字符](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters/)。这些是实现路径的例子，不要求其他排版工具迁移到此环境。

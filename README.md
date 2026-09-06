@@ -11,3 +11,5 @@ This first independent edition is an alpha. Structural validation and limited fo
 The 1.1.0-alpha update adds evidence-backed methods for effective image resolution, measured typesetting, alpha handling, editable-source checks, colour conversion and conditional print preflight. See [the validation summary](docs/knowledge-upgrade-1.1.0.md) for the tested scope and limitations. Full research and controlled specimen files remain in the local maintenance project, outside the installable skill and distribution history.
 
 The 1.2.0-alpha increment verifies complex text shaping, resolved font fallback, constrained text flow and export integrity with native typesetting artifacts. See [the complex-text validation summary](docs/knowledge-upgrade-1.2.0.md) for its evidence and remaining limits.
+
+The 1.2.1-alpha increment diagnoses PDF text mappings against exact source text, existing replacement text and reader behavior. A bounded compatibility repair improves extraction without changing drawing content; a shared-code counterexample establishes why global mapping replacement is unsafe. See [the PDF mapping validation summary](docs/knowledge-upgrade-1.2.1.md).
