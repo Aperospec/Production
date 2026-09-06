@@ -9,3 +9,5 @@ Project objectives, audiences, styles, formats, research conclusions, operationa
 This first independent edition is an alpha. Structural validation and limited forward tasks establish initial evidence, not comprehensive mastery of every discipline named in its scope.
 
 The 1.1.0-alpha update adds evidence-backed methods for effective image resolution, measured typesetting, alpha handling, editable-source checks, colour conversion and conditional print preflight. See [the validation summary](docs/knowledge-upgrade-1.1.0.md) for the tested scope and limitations. Full research and controlled specimen files remain in the local maintenance project, outside the installable skill and distribution history.
+
+The 1.2.0-alpha increment verifies complex text shaping, resolved font fallback, constrained text flow and export integrity with native typesetting artifacts. See [the complex-text validation summary](docs/knowledge-upgrade-1.2.0.md) for its evidence and remaining limits.
