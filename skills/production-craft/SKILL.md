@@ -2,7 +2,7 @@
 name: production-craft
 description: 制作二维静态视觉素材与页面，完成图像生成或编辑、合成完稿、精确排字、尺寸或语言变体、导出及实际文件检查。用于按明确设计或制作要求实现和修复视觉文件；不涵盖视频后期、软件交付或制造流程。
 metadata:
-  version: 1.0.1-alpha
+  version: 1.1.0-alpha
 ---
 
 # Production Craft
@@ -22,6 +22,7 @@ metadata:
 - 生成、编辑、扩图、选图或修复素材：读 [图像制作](references/image-production.md)。
 - 组合图像、文字、图形、证据、层和遮罩，制作成品与变体：读 [合成与完稿](references/finished-art.md)。
 - 实现准确文字、字体、断行与中英混排：读 [精确排字](references/typesetting.md)。
+- 涉及配置转换、跨色彩空间合成、印刷 PDF 或目标工艺预检：读 [色彩与印前条件](references/color-and-prepress.md)。按实际目标检查，不以配置标签或成功渲染声称合规、校准或印刷匹配。
 - 导出和交付文件：读 [导出与实际文件检查](references/export-qa.md)。只检查实际生成、打开或渲染的文件，不把工具成功返回当成质量证明。
 
 使用当前可用且适合任务的工具，遵守工具的使用规则。图像生成、编辑、文件格式处理等专门能力可按实际环境调用；不编造工具名、已完成操作或检查结果。此技能不提供发布、付费或其他外部行为的额外授权。

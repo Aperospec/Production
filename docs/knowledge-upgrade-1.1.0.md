@@ -1,0 +1,11 @@
+# Production Craft 1.1.0-alpha
+
+The update makes existing quality requirements easier to execute: read actual image geometry before cropping, calculate effective sampling from retained pixels and placed size, measure text under the same shaping conditions used for drawing, distinguish alpha representations, test an editable source by making and rendering a change, and separate profile assignment from colour conversion.
+
+A conditional colour and prepress reference separates file readability, standards conformance, receiving-process suitability and physical output quality. It does not prescribe a universal profile, PDF/X version, resolution or bleed. References preserve exact copy, multilingual qualifiers, source conditions, real export inspection and repair follow-through from the prior split audit. No project brief, specimen setting, output script or fixed management chain enters the skill package.
+
+The methodological basis includes Unicode and HarfBuzz text processing, W3C PNG and compositing, ICC workflow and calibration materials, ECI output conditions, and PDF Association / Ghent Workgroup preflight guidance. The graphic communication curriculum is used only as a coverage map; its catalogue is not treated as complete technical training. Relevant primary-source links and scope limits appear beside the methods.
+
+Local validation produced and rendered bilingual page variants, controlled clipping defects, a source-edit rebuild and a page-box specimen. Text extraction remained unchanged despite visible clipping. Separate PNG experiments demonstrated profile assignment versus conversion, missing metadata and incorrect repeated alpha multiplication, with identity and opaque/transparent controls. These are deliberately constructed experiments, not historical failures caused by the old skill and not an old-versus-new efficacy trial.
+
+Validation is limited to the recorded local libraries, fonts and software renders. It does not establish complex-script coverage, display calibration, human readability studies, printer/RIP suitability, PDF/X conformance, platform acceptance or physical proof matching. The version remains alpha. Complete sources, failed attempts, actual outputs and review records are held in the maintenance project rather than distributed as generic defaults.
