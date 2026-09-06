@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Production"
+  short_description: "Static visual production, typesetting and output checks."
+  default_prompt: "Use $production-craft to complete the professional work required by this project."
